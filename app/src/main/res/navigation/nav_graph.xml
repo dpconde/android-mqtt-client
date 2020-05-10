@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.dpconde.mqttclient.view.welcome.WelcomeFragment"
+        android:label="MQTT client"
+        tools:layout="@layout/fragment_welcome"/>
+    <fragment
+        android:id="@+id/publisherFragment"
+        android:name="com.dpconde.mqttclient.view.publisher.PublisherFragment"
+        android:label="MQTT client: Publisher"
+        tools:layout="@layout/fragment_publisher" />
+    <fragment
+        android:id="@+id/receiverFragment"
+        android:name="com.dpconde.mqttclient.view.receiver.ReceiverFragment"
+        android:label="MQTT client: Receiver"
+        tools:layout="@layout/fragment_receiver" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.dpconde.mqttclient.view.settings.SettingsFragment"
+        android:label="MQTT client: Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

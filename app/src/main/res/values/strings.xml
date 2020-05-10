@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MQTT Client</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="receiver">Receiver</string>
+    <string name="publisher">Publisher</string>
+    <string name="default_mqtt_url">tcp://192.168.0.104:1883</string>
+    <string name="mqtt_url_key">mqtt_url_key</string>
+    <string name="settings">Settings</string>
+</resources>
